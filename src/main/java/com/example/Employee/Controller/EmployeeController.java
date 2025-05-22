@@ -24,8 +24,8 @@ public class EmployeeController {
 	EmployeeService es;
 
 	@PostMapping(value = "/postsingleEmp")
-	public String postEmp(@RequestBody Employee e) {
-		return es.postEmp(e);
+	public String post(@RequestBody Employee e) {
+		return es.post(e);
 	}
 
 	@PostMapping(value = "/postmulitEmp")

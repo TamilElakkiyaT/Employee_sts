@@ -17,8 +17,8 @@ public class EmployeeService {
 	@Autowired
 	EmployeeRepository Er;
 
-	public String postEmp(Employee e) {
-		return ed.postEmp(e);
+	public String post(Employee e) {
+		return ed.post(e);
 	}
 
 	public String postEmp1(List<Employee> e) {

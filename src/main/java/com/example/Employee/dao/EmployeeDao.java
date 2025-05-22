@@ -13,7 +13,7 @@ public class EmployeeDao {
 	@Autowired
 	EmployeeRepository er;
 
-	public String postEmp(Employee e) {
+	public String post(Employee e) {
 		er.save(e);
 		return "saved successfully";
 	}
